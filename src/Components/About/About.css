@@ -18,8 +18,14 @@
 .about-title img{
     position:absolute;
     bottom: 0;
-        right: 0;
-        z-index: -1;
+    right: 0;
+    z-index: -1;
+}
+.about-left img{
+    border-radius: 50%;
+    width: 125%;
+    height: fit-content;
+  
 }
 
 .about-sections{
@@ -80,7 +86,7 @@
 }
 
 .about-achievement h1{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
     background: linear-gradient(270deg,#DA7C25 0.36%, #B923E1);
     background-clip: text;
@@ -135,9 +141,11 @@ transition: 0.3s;
     }
     .about-skill hr{
         height: 6px;
+        
     }
     .about-achievements{
         justify-content: space-between;
+        gap:25px;
     }
     .about-achievement{
         gap:10px;

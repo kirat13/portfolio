@@ -8,7 +8,11 @@
 .hero-img {
     margin-top: 150px;
 }
-
+.hero img{
+    border-radius: 50%;
+    width: 15%;
+    height: 20%;
+}
 .hero h3 {
     text-align: center;
     width: 70%;
@@ -52,6 +56,10 @@
     border: 2px solid #fff;
     cursor: pointer;
 }
+.hero-Resume a{
+    color: white;
+    text-decoration: none;
+}
 
 .hero-connect:hover {
     border: 2px solid white;
@@ -65,9 +73,9 @@
     .hero img {
         margin-top: 120px;
         width: 260px;
-    }
+    }  
 
-    .hero h1 {
+    .hero h3 {
         margin-top: 50px;
         width: 90%;
         font-size: 50px;

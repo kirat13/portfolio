@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/profile_img.svg'
+import imgs from '../../assets/imgs.png'
 
 const About = () => {
     return (
@@ -13,37 +13,49 @@ const About = () => {
                 </div>
                 <div className="about-sections">
                     <div className="about-left">
-                        <img src={profile_img} alt=" " />
+                        <img src={imgs} alt=" " />
                     </div>
                     <div className="about-right">
                         <div className="about-para">
-                            <p>Hello! I'm [Your Name], a passionate and dedicated tech enthusiast with a Bachelor's degree in Computer Applications. With a strong foundation in web development and data analytics, I thrive on creating innovative solutions and enhancing user experiences through technology. </p>
+                            <p>Hello! I'm Gurpreet Singh, a dedicated and passionate video editor
+                                with over 5 years of experience in creating stunning wedding
+                                highlights and social media reels. My journey in video editing has
+                                been driven by a commitment to excellence, hard work, and
+                                unwavering consistency.
+                                <br/><br/>
+                                From capturing the joyous moments of weddings to crafting compelling
+                                 social media content, I pour my heart and soul into every project. 
+                                 My expertise in industry-leading software like Adobe Premiere Pro,
+                                  After Effects Resolve allows me to deliver top-notch 
+                                  quality that meets the highest standards.
+                                  <br/><br/>My meticulous attention to detail ensures that each video not only meets but exceeds client expectations. Whether it's a romantic wedding highlight or an engaging reel for social media,
+                                   I am dedicated to bringing your vision to life with creativity and precision.</p>
                         </div>
 
                         <div className="about-skills">
-                            <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "50%" }}></hr></div>
-                            <div className="about-skill"><p>React Js</p><hr style={{ width: "70%" }}></hr></div>
-                            <div className="about-skill"><p>JavaScript</p><hr style={{ width: "60%" }}></hr></div>
-                            <div className="about-skill"><p>Java</p><hr style={{ width: "50%" }}></hr></div>
-                            <div className="about-skill"><p>Python</p><hr style={{ width: "70%" }}></hr></div>
+                            <div className="about-skill"><p>Premiere Pro</p><hr style={{ width: "100%" }}></hr></div>
+                            <div className="about-skill"><p>Adobe After effects</p><hr style={{ width: "60%" }}></hr></div>
+                            <div className="about-skill"><p>Color Grading</p><hr style={{ width: "75%" }}></hr></div>
+                            <div className="about-skill"><p>Filmora</p><hr style={{ width: "70%" }}></hr></div>
+                            <div className="about-skill"><p>Adobe Illustrator</p><hr style={{ width: "40%" }}></hr></div>
                         </div>
                     </div>
                 </div>
 
                 <div className="about-achievements">
                     <div className="about-achievement">
-                        <h1>10+</h1>
+                        <h1>5+</h1>
                         <p>YEARS OF EXPERIENCE</p>
                     </div>
-                    <hr/>
+                    <hr />
                     <div className="about-achievement">
-                        <h1>90+</h1>
+                        <h1>60+</h1>
                         <p>PROJECTS COMPLETED</p>
                     </div>
-                    <hr/>
+                    <hr />
 
                     <div className="about-achievement">
-                        <h1>15+</h1>
+                        <h1>50+</h1>
                         <p>HAPPY CLIENTS</p>
                     </div>
                 </div>

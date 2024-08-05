@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
+import logo from '../../assets/logo.png'
 
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-top">
             <div className="footer-top-left">
-            <img src={footer_logo} alt=" "/>
+            <img src={logo} alt=" "/>
             <p>I Am a Web Developer from India</p>
             </div>
            

@@ -13,7 +13,7 @@ const [result, setResult] = React.useState("");
         setResult("Sending....");
         const formData = new FormData(event.target);
     
-        formData.append("access_key", "d9a3a69d-f631-4c12-b842-b4f7913c6c3a");
+        formData.append("access_key", "85a33005-0395-4f7e-b850-27fa6578a983");
     
         const response = await fetch("https://api.web3forms.com/submit", {
           method: "POST",
@@ -47,13 +47,13 @@ const [result, setResult] = React.useState("");
                     
                     <div className="contact-details">
                         <div className="contact-detail">
-                            <img src={mail_icon} alt=" " /><p>gurkirat1313kaur@gmail.com</p>
+                            <img src={mail_icon} alt=" " /><p>preetcreator12@gmail.com</p>
                         </div>
                         <div className="contact-detail">
-                            <img src={call_icon} alt="" /><p> 7017416338</p>
+                            <img src={call_icon} alt="" /><p> 9779964298</p>
                         </div>
                         <div className="contact-detail">
-                            <img src={location_icon} alt="" /> <p>Khatauli , Muzaffar Nagar (U.P)</p>
+                            <img src={location_icon} alt="" /> <p>Sarabha, Ludhiana(Punjab)</p>
                         </div>
                         </div>
                     
